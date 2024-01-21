@@ -37,6 +37,8 @@ const calculate = () => {
 };
 
 // event listeners
+btn0.addEventListener("click", displayValue("0"));
+btn1.addEventListener("click", displayValue("1"));
 
 // function appendValue(value) {
 //   display.value += value;
