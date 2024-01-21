@@ -36,9 +36,9 @@ const calculate = () => {
   }
 };
 
-const clearDisplay() {
-    display.value = "";
-}
+const clearDisplay = () => {
+  display.value = "";
+};
 
 // event listeners
 btn0.addEventListener("click", displayValue("0"));
