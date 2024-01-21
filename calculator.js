@@ -1,3 +1,4 @@
+// var
 const display = document.getElementById("display");
 const btn0 = document.getElementById("btn-0");
 const btn1 = document.getElementById("btn-1");
@@ -16,22 +17,29 @@ const btnDiv = document.getElementById("btn-div");
 const btnEq = document.getElementById("btn-eq");
 const btnPt = document.getElementById("btn-pt");
 
-function appendValue(value) {
+// fn
+const button = (value) => {
   display.value += value;
-}
+};
 
-function calculate() {
-  try {
-    display.value = eval(display.value);
-  } catch (error) {
-    display.value = "Error";
-  }
-}
+// event listeners
 
-function clearDisplay() {
-  display.value = "";
-}
+// function appendValue(value) {
+//   display.value += value;
+// }
 
-function deleteLastCharacter() {
-  display.value = display.value.slice(0, -1);
-}
+// function calculate() {
+//   try {
+//     display.value = eval(display.value);
+//   } catch (error) {
+//     display.value = "Error";
+//   }
+// }
+
+// function clearDisplay() {
+//   display.value = "";
+// }
+
+// function deleteLastCharacter() {
+//   display.value = display.value.slice(0, -1);
+// }
