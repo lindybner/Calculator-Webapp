@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="calculator">
+            <input id="display" class="form-control mb-2" type="text" disabled>
+            <div class="row">
+                <button class="btn btn-primary col-3" onclick="appendValue('7')">7</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('8')">8</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('9')">9</button>
+                <button class="btn btn-danger col-3" onclick="appendValue('/')">/</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-primary col-3" onclick="appendValue('4')">4</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('5')">5</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('6')">6</button>
+                <button class="btn btn-danger col-3" onclick="appendValue('*')">*</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-primary col-3" onclick="appendValue('1')">1</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('2')">2</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('3')">3</button>
+                <button class="btn btn-danger col-3" onclick="appendValue('-')">-</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-primary col-3" onclick="appendValue('0')">0</button>
+                <button class="btn btn-primary col-3" onclick="appendValue('.')">.</button>
+                <button class="btn btn-success col-6" onclick="calculate()">=</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-success col-12" onclick="clearDisplay()">C</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-danger col-12" onclick="deleteLastCharacter()">DEL</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
