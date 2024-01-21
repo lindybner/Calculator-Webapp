@@ -18,8 +18,18 @@ const btnEq = document.getElementById("btn-eq");
 const btnPt = document.getElementById("btn-pt");
 
 // fn
-const button = (value) => {
+const displayValue = (value) => {
   display.value += value;
+};
+
+const calculate = () => {
+  try {
+    // evaluate display value
+    display.value = eval(display.value);
+  } catch (error) {
+    // display error
+    display.value = "Error";
+  }
 };
 
 // event listeners
