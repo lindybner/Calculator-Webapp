@@ -36,26 +36,28 @@ const calculate = () => {
   }
 };
 
+const clearDisplay() {
+    display.value = "";
+}
+
 // event listeners
 btn0.addEventListener("click", displayValue("0"));
 btn1.addEventListener("click", displayValue("1"));
-
-// function appendValue(value) {
-//   display.value += value;
-// }
-
-// function calculate() {
-//   try {
-//     display.value = eval(display.value);
-//   } catch (error) {
-//     display.value = "Error";
-//   }
-// }
-
-// function clearDisplay() {
-//   display.value = "";
-// }
-
-// function deleteLastCharacter() {
-//   display.value = display.value.slice(0, -1);
-// }
+btn2.addEventListener("click", displayValue("2"));
+btn3.addEventListener("click", displayValue("3"));
+btn4.addEventListener("click", displayValue("4"));
+btn5.addEventListener("click", displayValue("5"));
+btn6.addEventListener("click", displayValue("6"));
+btn7.addEventListener("click", displayValue("7"));
+btn8.addEventListener("click", displayValue("8"));
+btn9.addEventListener("click", displayValue("9"));
+btnPlus.addEventListener("click", displayValue("+"));
+btnMinus.addEventListener("click", displayValue("-"));
+btnTimes.addEventListener("click", displayValue("*"));
+btnDiv.addEventListener("click", displayValue("/"));
+btnPt.addEventListener("click", displayValue("."));
+btnLpar.addEventListener("click", displayValue("("));
+btnRpar.addEventListener("click", displayValue(")"));
+btnPercnt.addEventListener("click", displayValue("%"));
+btnEq.addEventListener("click", calculate());
+btnClear.addEventListener("click", clearDisplay());
