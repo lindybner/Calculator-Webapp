@@ -17,6 +17,7 @@ This is a basic calculator web application created using HTML, JavaScript, and B
 - Click the "AC" button to clear the display.
 - Click the "DEL" button to for backspace.
 - Press the "=" button to calculate the result.
+- Keyboard support is enabled.
 
 ## Technologies Used
 
