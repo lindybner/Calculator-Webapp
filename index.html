@@ -7,8 +7,9 @@
     <!-- bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha384-aXtGpZGdeYUqEzh5aA3eDx8g1b6btiQRG5Agvl6zKxu4p5V91JWlMZ2wJqIX6Tij" crossorigin="anonymous">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <title>Simple Calculator</title>
 </head>
@@ -20,10 +21,14 @@
             <input id="display" class="form-control mb-2" type="text" disabled>
             <div class="row mb-2">
                 <div class="col-3">
-                    <button class="btn-lg btn-danger btn-block" id="btn-clear">AC</button>
+                    <button class="btn-lg btn-danger btn-block" id="btn-clear">
+                        <i class="fas fa-sync"></i>
+                    </button>
                 </div>
                 <div class="col-3">
-                    <button class="btn-lg btn-warning btn-block" id="btn-del">DEL</button>
+                    <button class="btn-lg btn-warning btn-block" id="btn-del">
+                        <i class="fas fa-backspace"></i>
+                    </button>
                 </div>
                 <div class="col-3">
                     <button class="btn-lg btn-secondary btn-block" id="btn-lpar">&lpar;</button>
