@@ -16,6 +16,10 @@ const btnTimes = document.getElementById("btn-times");
 const btnDiv = document.getElementById("btn-div");
 const btnEq = document.getElementById("btn-eq");
 const btnPt = document.getElementById("btn-pt");
+const btnClear = document.getElementById("btn-clear");
+const btnLpar = document.getElementById("btn-lpar");
+const btnRpar = document.getElementById("btn-rpar");
+const btnPercnt = document.getElementById("btn-percnt");
 
 // fn
 const displayValue = (value) => {
