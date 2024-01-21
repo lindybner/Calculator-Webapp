@@ -19,7 +19,7 @@ const btnPt = document.getElementById("btn-pt");
 const btnClear = document.getElementById("btn-clear");
 const btnLpar = document.getElementById("btn-lpar");
 const btnRpar = document.getElementById("btn-rpar");
-const btnPercnt = document.getElementById("btn-percnt");
+const btnDel = document.getElementById("btn-del");
 
 // fn
 const displayValue = (value) => {
@@ -40,6 +40,10 @@ const clearDisplay = () => {
   display.value = "";
 };
 
+const backspace = () => {
+  display.value = display.value.slice(0, -1);
+};
+
 // event listeners
 btn0.addEventListener("click", () => displayValue("0"));
 btn1.addEventListener("click", () => displayValue("1"));
@@ -58,6 +62,6 @@ btnDiv.addEventListener("click", () => displayValue("/"));
 btnPt.addEventListener("click", () => displayValue("."));
 btnLpar.addEventListener("click", () => displayValue("("));
 btnRpar.addEventListener("click", () => displayValue(")"));
-btnPercnt.addEventListener("click", () => displayValue("%"));
+btnDel.addEventListener("click", backspace);
 btnEq.addEventListener("click", calculate);
 btnClear.addEventListener("click", clearDisplay);
