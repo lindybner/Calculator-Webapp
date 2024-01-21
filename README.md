@@ -14,7 +14,8 @@ This is a basic calculator web application created using HTML, JavaScript, and B
 - Press the numeric buttons (0-9) to input numbers.
 - Use operation buttons (+, -, \*, /) for basic arithmetic.
 - Parentheses, percentage, and decimal point buttons are also available.
-- Click the "C" button to clear the display.
+- Click the "AC" button to clear the display.
+- Click the "DEL" button to for backspace.
 - Press the "=" button to calculate the result.
 
 ## Technologies Used
