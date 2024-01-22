@@ -37,8 +37,8 @@ const calculate = () => {
 };
 
 const clearDisplay = () => {
-  window.location.reload();
   display.value = "";
+  window.location.reload();
 };
 
 const backspace = () => {
