@@ -1,5 +1,6 @@
 const calculateSavings = document.getElementById("calculate-savings");
 
+// functions
 function calculateAndDisplayCompoundInterest() {
   // Fetch input values
   const principal = parseFloat(document.getElementById("principal").value);
