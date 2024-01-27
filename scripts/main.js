@@ -12,3 +12,11 @@ function showTallyCounter() {
 
 // Show calculator by default
 showCalculator();
+
+// Event listeners for navbar links
+document
+  .getElementById("calculator-link")
+  .addEventListener("click", showCalculator);
+document
+  .getElementById("tally-link")
+  .addEventListener("click", showTallyCounter);
