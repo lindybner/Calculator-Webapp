@@ -19,11 +19,9 @@ function calculateAndDisplayCompoundInterest() {
   );
 
   // Display the result
-  document.getElementById(
-    "result"
-  ).innerHTML = `<strong>Total: $${compoundInterestResult}</strong><br>Interest: $${(
-    compoundInterestResult - principal
-  ).toFixed(2)}`;
+  document.getElementById("result").innerHTML = `
+    <div><strong>Total: $${compoundInterestResult}</strong></div>
+    <div>Interest: $${(compoundInterestResult - principal).toFixed(2)}</div>`;
 }
 
 function calculateCompoundInterest(principal, rate, time, compoundsPerYear) {
