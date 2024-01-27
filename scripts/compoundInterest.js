@@ -1,3 +1,5 @@
+const calculateSavings = document.getElementById("calculate-savings");
+
 function calculateAndDisplayCompoundInterest() {
   // Fetch input values
   const principal = parseFloat(document.getElementById("principal").value);
@@ -31,3 +33,6 @@ function calculateCompoundInterest(principal, rate, time, compoundsPerYear) {
     Math.pow(1 + rate / (compoundsPerYear * 100), compoundsPerYear * time);
   return compoundInterest.toFixed(2);
 }
+
+// eventlistener
+calculateSavings.addEventListener("click", calculateAndDisplayCompoundInterest);
