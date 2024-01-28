@@ -1,27 +1,44 @@
-# Simple Calculator Web App
+# LDWS Calculators
 
-This is a basic calculator web application created using HTML, JavaScript, and Bootstrap. It allows users to perform simple mathematical calculations by entering expressions using the provided buttons.
+This repository contains a set of calculators developed by LDWS (Lin Dybner Web Studio). The calculators include:
 
-## Features
+- **Basic Calculator**: A simple calculator with basic arithmetic operations.
+- **Tally Counter**: A tally counter to keep track of counts.
+- **Savings Calculator**: Calculate compound interest based on principal amount, annual interest rate, number of years, and compounding frequency.
+- **Investment Calculator**: Determine the future value of an investment with options for initial investment, contribution amount, contribution frequency, annual interest rate, and investment period.
 
-- Addition, subtraction, multiplication, and division operations.
-- Support for parentheses, percentage, and decimal point.
-- Clear and delete functionality.
-- Error handling for invalid expressions.
+## How to Use Each Calculator
 
-## Technologies Used
+### Basic Calculator
 
-- HTML
-- JavaScript
-- Bootstrap (CSS framework)
-- Font Awesome (for icons)
+- Perform basic arithmetic operations (+, -, \*, /).
+- Use parentheses for more complex expressions.
 
-## Buttons and Functions
+### Tally Counter
 
-- **Numeric Buttons (0-9):** Press to input numbers.
-- **Operation Buttons (+, -, \*, /):** Use for basic arithmetic.
-- **Parentheses, Percentage, Decimal Point Buttons:** Available for additional functionality.
-- **AC (All Clear) Button:** Click to clear the display.
-- **DEL (Delete) Button:** Removes the last entered character.
-- **= (Equals) Button:** Press to calculate the result.
-- **Keyboard Support:** Enabled for a seamless user experience.
+- Click the "+" button to increment the tally count.
+- Click the "-" button to decrement the tally count.
+- Click the "Refresh" button to reset the tally count.
+
+### Savings Calculator
+
+- Enter the principal amount, annual interest rate, number of years, and compounding frequency.
+- Click the "Calculate" button to see the future value of your savings.
+
+### Investment Calculator
+
+- Enter the initial investment, contribution amount, contribution frequency, annual interest rate, and investment period.
+- Click the "Calculate" button to determine the future value of your investment.
+
+## Contributing
+
+Feel free to contribute to the development of these calculators by creating pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Copyright &copy; [current-year] LDWS. All rights reserved.**  
+Visit [LDWS](https://lindybner.com) for more information.
