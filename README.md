@@ -1,6 +1,6 @@
 # LDWS Calculators
 
-This repository contains a set of calculators developed by LDWS (Lin Dybner Web Studio). The calculators include:
+This repository contains a set of calculators developed by LDWS. The calculators include:
 
 - **Basic Calculator**: A simple calculator with basic arithmetic operations.
 - **Tally Counter**: A tally counter to keep track of counts.
