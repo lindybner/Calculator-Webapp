@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
       case "quarterly":
         periodsPerYear = 4;
         break;
-      case "semiannual":
+      case "semiannually":
         periodsPerYear = 2;
         break;
-      case "annual":
+      case "annually":
         periodsPerYear = 1;
         break;
       default:
