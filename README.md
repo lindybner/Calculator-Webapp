@@ -40,5 +40,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Copyright &copy; [current-year] LDWS. All rights reserved.**  
 Visit [LDWS](https://lindybner.com) for more information.
